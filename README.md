@@ -18,54 +18,54 @@ There are three sources of dataset, the **airlines** and the **airports** , and 
 ### The airlines dataset
 This is a csv file loaded with airlines information. 
 **columns:**
- |-- IATA_CODE: string (nullable = true)
- |-- AIRLINE: string (nullable = true)
+  - IATA_CODE: string (nullable = true)
+  - AIRLINE: string (nullable = true)
 
 ### Airport dataset
 This is a csv file loaded with airports information.
 **columns:**
- |-- IATA_CODE: string (nullable = true)
- |-- AIRPORT: string (nullable = true)
- |-- CITY: string (nullable = true)
- |-- STATE: string (nullable = true)
- |-- COUNTRY: string (nullable = true)
- |-- LATITUDE: double (nullable = true)
- |-- LONGITUDE: double (nullable = true)
+ - IATA_CODE 
+ - AIRPORT 
+ - CITY 
+ - STATE 
+ - COUNTRY 
+ - LATITUDE 
+ - LONGITUDE
 
 ### Flights dataset
 This is a csv file loaded with airports information.
 **columns:**
- |-- YEAR: integer (nullable = true)
- |-- MONTH: integer (nullable = true)
- |-- DAY: integer (nullable = true)
- |-- DAY_OF_WEEK: integer (nullable = true)
- |-- AIRLINE: string (nullable = true)
- |-- FLIGHT_NUMBER: integer (nullable = true)
- |-- TAIL_NUMBER: string (nullable = true)
- |-- ORIGIN_AIRPORT: string (nullable = true)
- |-- DESTINATION_AIRPORT: string (nullable = true)
- |-- SCHEDULED_DEPARTURE: integer (nullable = true)
- |-- DEPARTURE_TIME: integer (nullable = true)
- |-- DEPARTURE_DELAY: integer (nullable = true)
- |-- TAXI_OUT: integer (nullable = true)
- |-- WHEELS_OFF: integer (nullable = true)
- |-- SCHEDULED_TIME: integer (nullable = true)
- |-- ELAPSED_TIME: integer (nullable = true)
- |-- AIR_TIME: integer (nullable = true)
- |-- DISTANCE: integer (nullable = true)
- |-- WHEELS_ON: integer (nullable = true)
- |-- TAXI_IN: integer (nullable = true)
- |-- SCHEDULED_ARRIVAL: integer (nullable = true)
- |-- ARRIVAL_TIME: integer (nullable = true)
- |-- ARRIVAL_DELAY: integer (nullable = true)
- |-- DIVERTED: integer (nullable = true)
- |-- CANCELLED: integer (nullable = true)
- |-- CANCELLATION_REASON: string (nullable = true)
- |-- AIR_SYSTEM_DELAY: integer (nullable = true)
- |-- SECURITY_DELAY: integer (nullable = true)
- |-- AIRLINE_DELAY: integer (nullable = true)
- |-- LATE_AIRCRAFT_DELAY: integer (nullable = true)
- |-- WEATHER_DELAY: integer (nullable = true) 
+  - YEAR: integer (nullable = true)
+  - MONTH: integer (nullable = true)
+  - DAY: integer (nullable = true)
+  - DAY_OF_WEEK: integer (nullable = true)
+  - AIRLINE: string (nullable = true)
+  - FLIGHT_NUMBER: integer (nullable = true)
+  - TAIL_NUMBER: string (nullable = true)
+  - ORIGIN_AIRPORT: string (nullable = true)
+  - DESTINATION_AIRPORT: string (nullable = true)
+  - SCHEDULED_DEPARTURE: integer (nullable = true)
+  - DEPARTURE_TIME: integer (nullable = true)
+  - DEPARTURE_DELAY: integer (nullable = true)
+  - TAXI_OUT: integer (nullable = true)
+  - WHEELS_OFF: integer (nullable = true)
+  - SCHEDULED_TIME: integer (nullable = true)
+  - ELAPSED_TIME: integer (nullable = true)
+  - AIR_TIME: integer (nullable = true)
+  - DISTANCE: integer (nullable = true)
+  - WHEELS_ON: integer (nullable = true)
+  - TAXI_IN: integer (nullable = true)
+  - SCHEDULED_ARRIVAL: integer (nullable = true)
+  - ARRIVAL_TIME: integer (nullable = true)
+  - ARRIVAL_DELAY: integer (nullable = true)
+  - DIVERTED: integer (nullable = true)
+  - CANCELLED: integer (nullable = true)
+  - CANCELLATION_REASON: string (nullable = true)
+  - AIR_SYSTEM_DELAY: integer (nullable = true)
+  - SECURITY_DELAY: integer (nullable = true)
+  - AIRLINE_DELAY: integer (nullable = true)
+  - LATE_AIRCRAFT_DELAY: integer (nullable = true)
+  - WEATHER_DELAY: integer (nullable = true) 
 
 ## Choice of Data Model
 
